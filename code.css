@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+.image{
+    border-radius: 50%;
+    box-shadow: rgba(200,0,2,1);
+}
+section{
+
+position:relative;
+height: 100vh;
+width:100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 100px;
+box-sizing: border-box;
+background: linear-gradient(300deg,  #7f8c8d 44%,#000000 50%),url(back.webp);
+background-blend-mode: screen;
+background-size: cover;
+}
+section .text{
+    max-width:700px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+section .text p{
+    color:#fff;
+    font-size: 2rem;
+}
+section img{
+    position: relative;
+    max-width: 500px;
+    margin-bottom: 100px;
+    z-index:100;
+    box-shadow: 10px 5px 15px rgba(0,0,0,0.8);
+}
+section svg{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
